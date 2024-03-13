@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22757" systemVersion="23B74" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="BooksModel" representedClassName="BooksModel" syncable="YES" codeGenerationType="class">
+        <attribute name="rAuthor" optional="YES" attributeType="String"/>
+        <attribute name="rBook" optional="YES" attributeType="String"/>
+        <attribute name="rPlot" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="CoursesModel" representedClassName="CoursesModel" syncable="YES" codeGenerationType="class">
+        <attribute name="cCost" optional="YES" attributeType="String"/>
+        <attribute name="cCurStatus" optional="YES" attributeType="String"/>
+        <attribute name="cDetails" optional="YES" attributeType="String"/>
+        <attribute name="cDuration" optional="YES" attributeType="String"/>
+        <attribute name="cNotes" optional="YES" attributeType="String"/>
+        <attribute name="cStart" optional="YES" attributeType="String"/>
+        <attribute name="cStatus" optional="YES" attributeType="String"/>
+        <attribute name="cTitle" optional="YES" attributeType="String"/>
+        <attribute name="cType" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="ExpensesModel" representedClassName="ExpensesModel" syncable="YES" codeGenerationType="class">
+        <attribute name="exCost" optional="YES" attributeType="String"/>
+        <attribute name="exDate" optional="YES" attributeType="String"/>
+        <attribute name="exDetails" optional="YES" attributeType="String"/>
+        <attribute name="exNotes" optional="YES" attributeType="String"/>
+        <attribute name="exTitle" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="ReadedModel" representedClassName="ReadedModel" syncable="YES" codeGenerationType="class">
+        <attribute name="bAuthor" optional="YES" attributeType="String"/>
+        <attribute name="bBook" optional="YES" attributeType="String"/>
+        <attribute name="bNotes" optional="YES" attributeType="String"/>
+        <attribute name="bPlot" optional="YES" attributeType="String"/>
+        <attribute name="bTime" optional="YES" attributeType="String"/>
+        <attribute name="bType" optional="YES" attributeType="String"/>
+    </entity>
+</model>
