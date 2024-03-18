@@ -12,12 +12,12 @@ struct LoadingView: View {
 
         ZStack {
             
-            Color("bg")
+            Color("bg2")
                 .ignoresSafeArea()
             
             VStack {
                 
-                Image("logo")
+                Image("logo_big")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 200)
